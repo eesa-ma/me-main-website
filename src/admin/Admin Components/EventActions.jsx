@@ -23,5 +23,4 @@ function EventActions() {
     </div>
   )
 }
-
 export default EventActions

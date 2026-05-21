@@ -22,5 +22,4 @@ function ActionsCard() {
     </div>
   )
 }
-
 export default ActionsCard

@@ -31,12 +31,14 @@ function Navbar() {
             key={item.id}
             aria-label={item.label}
             onClick={() => setActive(item.id)}
-            className={`w-9 h-9 rounded-lg border-none cursor-pointer flex items-center justify-center text-[#e8d0c5] relative transition-all
-              ${active === item.id ? 'bg-white/20' : 'bg-white/10 hover:bg-white/20'}`}
+            className={`w-10 h-10 rounded-xl border-none cursor-pointer flex items-center justify-center text-[#e8d0c5] relative transition-all
+              ${active === item.id
+                ? 'bg-white/20'
+                : 'bg-[#2a0f08] hover:bg-white/20'}`}
           >
-            <i className={`ti ${item.icon} text-lg`} />
+            <i className={`ti ${item.icon}`} style={{ fontSize: 20 }} />
             {item.badge && (
-              <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-[#e85d2a] border-2 border-[#3d1a10]" />
+              <span className="absolute top-1.5 right-1.5 w-2.5 h-2.5 rounded-full bg-[#e85d2a] border-2 border-[#3d1a10]" />
             )}
           </button>
         ))}
@@ -44,4 +46,5 @@ function Navbar() {
     </nav>
   )
 }
+
 export default Navbar

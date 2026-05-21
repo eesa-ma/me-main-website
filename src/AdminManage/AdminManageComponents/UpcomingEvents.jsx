@@ -22,5 +22,4 @@ function UpcomingEvents() {
     </div>
   )
 }
-
 export default UpcomingEvents

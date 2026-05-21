@@ -27,5 +27,4 @@ function EventsCard() {
     </div>
   )
 }
-
 export default EventsCard
