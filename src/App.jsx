@@ -25,6 +25,8 @@ import { translations } from "./translations";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Register from "./auth/Register";
+import Signin from "./auth/Signin"; 
+import Forgotpass from "./auth/Forgotpass";
 
 import { AdminRouter } from './admin';
 
@@ -812,6 +814,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<Register />} />
         <Route path="/admin" element={<AdminRouter />} />
+        <Route path="/signin" element={<Signin />} />
+        <Route path="/forgot-password" element={<Forgotpass />} />
       </Routes>
     </BrowserRouter>
   );
