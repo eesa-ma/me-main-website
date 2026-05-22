@@ -25,7 +25,7 @@ function Footer() {
 
         <div className="border-t border-white/10 pt-2">
           <p className="text-[11px] text-[#9a6a5a] text-center m-0">
-            © 2026 Mind Empowered. All rights reserved. — Illuminating minds. Transforming lives.
+            © 2020 Mind Empowered. All rights reserved. — Illuminating minds. Transforming lives.
           </p>
         </div>
 
