@@ -14,7 +14,7 @@ function Footer() {
             />
             <div>
               <span className="text-sm font-semibold text-white block">Mind Empowered</span>
-              <span className="text-[10px] text-[#c9a090] tracking-widest block">#MeForYouth</span>
+              <span className="text-[10px] text-[#c9a090] tracking-widest block">#MEFORYOUTH</span>
             </div>
           </div>
 

@@ -1,7 +1,7 @@
-import Navbar from './Admin Manage Components/Navbar'
-import Footer from './Admin Manage Components/Footer'
-import UpcomingEvents from './Admin Manage Components/UpcomingEvents'
-import EventActions from './Admin Manage Components/EventActions'
+import Navbar from './AdminManageComponents/Navbar'
+import Footer from './AdminManageComponents/Footer'
+import UpcomingEvents from './AdminManageComponents/UpcomingEvents'
+import EventActions from './AdminManageComponents/EventActions'
 
 function ManageEvents() {
   return (
